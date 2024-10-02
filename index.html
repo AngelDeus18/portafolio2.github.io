@@ -7,13 +7,12 @@
   <title>Index - Arsha Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-  
+
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -51,25 +50,33 @@
 
   <main class="main">
 
-
     <section id="inicio" class="inicio section dark-background">
 
       <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image-container">
+              <img src="assets/img/img.PNG" alt="img" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="text-about-me">
+              <p>Mi nombre es Jorge Angel Perdomo Paya, soy estudiante de desarrollo de software en la universidad del valle.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
     </section>
 
     <section id="about" class="about section">
-
       <div class="container section-title" data-aos="fade-up">
         <h2>Sobre mi</h2>
       </div>
 
       <div class="container">
-
         <div class="row gy-4">
-
-          <div class="col-lg-6 content " data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
             <p>
               Como estudiante de desarrollo de software en la Universidad del Valle, actualmente en el cuarto semestre,
               me destaco por mi responsabilidad y habilidad para trabajar en equipo, siendo un comunicador efectivo. Mi
@@ -79,36 +86,29 @@
               actualizado en un campo tan dinámico como el desarrollo de software. Mi objetivo primordial es seguir
               aprendiendo y mejorando constantemente, manteniendo altos estándares de calidad y contribuir al avance
               tecnológico de manera auténtica y efectiva, actuando siempre con integridad y fidelidad a mis valores.
+            </p>
           </div>
-
         </div>
-
       </div>
-
     </section>
 
     <section id="habilidades" class="habilidades section light-background">
-
-
       <div class="container section-title" data-aos="fade-up">
         <h2>Habilidades</h2>
       </div>
-
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
-              <div class="icon"></i><i class="fa-brands fa-php"></i></div>
-              <h4><a  class="stretched-link">PHP</a></h4>
+              <div class="icon"><i class="fa-brands fa-php"></i></div>
+              <h4><a class="stretched-link">PHP</a></h4>
               <p></p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon"></i><i class="fa-brands fa-python"></i></div>
+              <div class="icon"><i class="fa-brands fa-python"></i></div>
               <h4><a class="stretched-link">PYTHON</a></h4>
               <p></p>
             </div>
@@ -116,7 +116,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fa-brands fa-laravel"></i></i></div>
+              <div class="icon"><i class="fa-brands fa-laravel"></i></div>
               <h4><a class="stretched-link">LARAVEL</a></h4>
               <p></p>
             </div>
@@ -124,38 +124,28 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fa-brands fa-js"></i></i></div>
+              <div class="icon"><i class="fa-brands fa-js"></i></div>
               <h4><a class="stretched-link">JavaScript</a></h4>
               <p></p>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </section>
 
     <section id="proyectos" class="proyectos section">
-
       <div class="container section-title" data-aos="fade-up">
         <h2>Proyectos</h2>
         <p>
-En este aparto estan expuesto todos los proyectos que he hecho 
-o que en trabajado en conjuto con otros grupos
+          En este apartado están expuestos todos los proyectos que he hecho
+          o que he trabajado en conjunto con otros grupos.
+        </p>
       </div>
-
-      <div class="col-lg-6 content " data-aos="fade-up" data-aos-delay="100">
-
-      </div>
-      <div class="container">
-
-      </div>
-
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100"></div>
+      <div class="container"></div>
     </section>
 
     <footer id="footer" class="footer">
-
       <div class="container section-title" data-aos="fade-up">
         <h2>Contacto</h2>
       </div>
@@ -175,7 +165,7 @@ o que en trabajado en conjuto con otros grupos
 
           <div class="col-lg-4 col-md-12">
             <h4>Redes Sociales</h4>
-            <p>Puedes contactarme mediante mis redes sociales </p>
+            <p>Puedes contactarme mediante mis redes sociales</p>
             <div class="social-links d-flex">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -183,33 +173,19 @@ o que en trabajado en conjuto con otros grupos
               <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-
         </div>
       </div>
 
       <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Angel</strong> <span>All Rights Reserved</span></p>
-        <div class="credits">
-          Designed by <a>Jorge Angel Perdomo Paya</a>
-        </div>
+        <p>© 2024 Todos los derechos reservados.</p>
       </div>
-
     </footer>
 
+  </main>
 
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-
-    <div id="preloader"></div>
-
-
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-
- 
-    <script src="assets/js/main.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
