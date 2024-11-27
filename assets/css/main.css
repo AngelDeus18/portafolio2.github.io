@@ -780,3 +780,8 @@ section,
 .image-container{
  border-radius: 20px;
 }
+.carousel-inner img {
+  width: 100%; /* Asegura que ocupe el ancho completo del contenedor */
+  height: 400px; /* Ajusta según el tamaño deseado */
+  object-fit:contain;
+}
