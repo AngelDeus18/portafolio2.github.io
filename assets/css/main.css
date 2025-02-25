@@ -845,10 +845,92 @@ section,
 .btn-primary:hover {
   transform: scale(1.1); 
 }
+/*carousel */
+
 .carousel-indicators [data-bs-target] {
-  background-color: black; 
+  background: gray;
+  border: 1px;
 }
 
 .carousel-indicators .active {
-  background-color: black; 
+  background-color: #47b2e4; 
+}
+
+/* Modal 1 */
+.modal-content {
+  background-color: #f8f9fa; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* Estilos para el efecto de hover */
+.card__article {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 1.5rem;
+  transition: transform 0.5s ease;
+}
+
+.card__data {
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0; 
+  margin-inline: auto;
+  opacity: 0;
+  transition: bottom 0.5s ease, opacity 0.5s ease;
+}
+
+.card__description {
+  display: block;
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.card__text {
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.card__button {
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #37517e;
+}
+
+.card__button:hover {
+  text-decoration: underline;
+}
+
+/* Efecto de hover */
+.card__article:hover .card__data {
+  bottom: 1rem;
+  opacity: 1;
+}
+
+.card__article:hover .card__img {
+  transform: scale(1.1);
 }
