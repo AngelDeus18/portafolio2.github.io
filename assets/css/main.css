@@ -718,6 +718,7 @@ section,
 }
 
 #inicio .image-container img {
+  border-radius: 60%;
   position: relative;
   max-width: 100%;
   height: auto;
